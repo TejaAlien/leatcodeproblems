@@ -33,7 +33,7 @@ removeelements(input,value);
                 addedlist.add(nums[j]);
             }
         }
-        addedlist.forEach(u->System.out.println(u));
+        addedlist.forEach(System.out::println);
         return 0;
     }
 }
